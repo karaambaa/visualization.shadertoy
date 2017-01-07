@@ -85,7 +85,9 @@ const std::vector<Preset> g_presets =
    {"Twisted Rings by poljere",                 "twistedrings.frag.glsl",           99, -1, -1, -1},
    {"Undulant Spectre by mafik",                "undulantspectre.frag.glsl",        99, -1, -1, -1},
    {"Waves Remix by ADOB",                      "wavesremix.frag.glsl",             99, -1, -1, -1},
-   {"Circle Wave by TekF",                      "circlewave.frag.glsl",             99, -1, -1, -1}};
+   {"Circle Wave by TekF",                      "circlewave.frag.glsl",             99, -1, -1, -1},
+   {"Solines by Pol Jeremias"                   "solines.frag.glsl",                99, -1, -1, -1},
+   {"Yellow Manypus by Pol Jeremias"            "yellowmanypus.frag.glsl",          99, -1, -1, -1}};
 #else
 const std::vector<Preset> g_presets =
   {
@@ -115,7 +117,9 @@ const std::vector<Preset> g_presets =
    {"Twisted Rings by poljere",                 "twistedrings.frag.glsl",           99, -1, -1, -1},
    {"Undulant Spectre by mafik",                "undulantspectre.frag.glsl",        99, -1, -1, -1},
    {"Demo - Volumetric Lines by iq",            "volumetriclines.frag.glsl",        99, -1, -1, -1},
-   {"Waves Remix by ADOB",                      "wavesremix.frag.glsl",             99, -1, -1, -1}};
+   {"Waves Remix by ADOB",                      "wavesremix.frag.glsl",             99, -1, -1, -1},
+   {"Solines by Pol Jeremias"                   "solines.frag.glsl",                99, -1, -1, -1},
+   {"Yellow Manypus by Pol Jeremias"            "yellowmanypus.frag.glsl",          99, -1, -1, -1}};
 #endif
 
 int g_currentPreset = 0;
